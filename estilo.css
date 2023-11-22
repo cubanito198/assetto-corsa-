@@ -95,6 +95,35 @@ section article{
 
 
 /*barra de busqueda */
+li{
+    list-style-type: none;
+}
+article h1{
+    display: none;
+}
+#myList {
+    list-style-type: none;
+    padding: 0;
+    text-align: left; /* Alinea el texto de la lista de izquierda a derecha */
+    list-style-type: none;
+    padding: 0;
+    margin: 0px 0 0 0;
+}
+#myList li {
+    display: inline-block; /* Coloca los elementos de la lista en línea */
+    margin-right: 30px; /* Añade un espacio entre los elementos (ajusta según sea necesario) */
+    margin-top: 0px;
+}
+#myInput{
+    position: absolute;
+    margin: 0px;
+    padding: 10px;
+    font-size: 10px;
+    border: 1px solid #ccc;
+    border-radius: 20px; /* Hace redondo el borde del cuadro de búsqueda */
+    width: 200px;
+    box-sizing: border-box;
+}
 
 /*acaba barra de busqueda -->*/
 
