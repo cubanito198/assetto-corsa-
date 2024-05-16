@@ -1,4 +1,29 @@
 /* COCHES*/
+html, body, main, section {
+    height: 100%;
+    margin: 0;
+}
+#carContainer {
+    height: 100%;
+    overflow-y: scroll;
+}
+#myList {
+    list-style: none;
+    padding: 0;
+    margin: 0;
+}
+body {
+    background: url('fotos/fondos/Fondo\ de\ coches.jpg') fixed;
+    background-size: cover;
+    overflow: hidden;
+}
+#carContainer::-webkit-scrollbar {
+    width: 12px;
+}
+#carContainer::-webkit-scrollbar-thumb {
+    background-color: #afafaf; /* Color del fondo de la barra de desplazamiento */
+    border-radius: 6px; /* Bordes redondeados de la barra de desplazamiento */
+}
 #Coches{
     font-family: Arial, sans-serif;
     margin: 20px;
@@ -33,6 +58,20 @@ section article{
     transition: all 1s;
         
 }
+        /*estilo de el titulo */
+        .header h1 {
+            margin: 0;
+            font-family: 'Grape Nuts', sans-serif; /* Cambia 'Arial' por la fuente que prefieras */
+            font-size: 1.5em; /* Tamaño de fuente ajustable */
+        }
+        .grape-nuts-regular {
+            font-family: "Grape Nuts", ;
+            font-weight: 400;
+            font-style: normal;
+        }
+        @import url('https://fonts.googleapis.com/css2?family=Grape+Nuts&display=swap');
+        /*estilo de el titulo */
+
 /* COCHES */
 
 

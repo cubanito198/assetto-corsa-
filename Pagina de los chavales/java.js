@@ -22,3 +22,26 @@ document.addEventListener("DOMContentLoaded", function () {
         }
     })
 })
+
+//se mueve todo menos el fondo 
+/*
+//Espera a que el DOM esté completamente cargado
+$(document).ready(function () {
+    // Selecciona el contenedor de los elementos li
+    var carContainer = $("#carContainer");
+
+    // Registra el evento de la rueda del ratón
+    carContainer.on("wheel", function (event) {
+        // Obtiene la cantidad de desplazamiento de la rueda
+        var deltaY = event.originalEvent.deltaY;
+
+        // Obtiene la posición actual de desplazamiento
+        var currentScrollPosition = carContainer.scrollTop();
+
+        // Aplica el desplazamiento a la posición actual
+        carContainer.scrollTop(currentScrollPosition + deltaY);
+
+        // Evita el comportamiento predeterminado de la rueda del ratón (por ejemplo, desplazamiento de la página)
+        event.preventDefault();
+    });
+});*/
